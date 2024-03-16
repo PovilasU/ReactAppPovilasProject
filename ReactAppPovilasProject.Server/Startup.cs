@@ -6,6 +6,11 @@ using System.Text;
 using ReactAppPovilasProject.Server.Data;
 using ReactAppPovilasProject.Server.Services;
 
+
+
+
+//using BlazorAppDemo.Services;
+
 namespace ReactAppPovilasProject.Server
 {
     public class Startup
@@ -24,7 +29,7 @@ namespace ReactAppPovilasProject.Server
 
 
             //TODO: fix this
-          //  services.AddScoped<ProductService>();
+            services.AddScoped<ProductService>();
 
             // Other services...
         }

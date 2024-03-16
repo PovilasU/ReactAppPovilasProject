@@ -14,6 +14,13 @@ namespace ReactAppPovilasProject.Server.Data
         }
 
         public DbSet<Product> Products { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>()
+                .Property(b => b.Price)
+                .HasColumnType("decimal(18, 2)");
+        }
     }
 }
 
