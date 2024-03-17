@@ -34,3 +34,19 @@ C:/DockerVolumes/SqlData/log
 C:/DockerVolumes/SqlData/secrets
 
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=yourStrong(!)Password" -e "MSSQL_PID=Express" -p 1433:1433 -v C:/DockerVolumes/SqlData/data:/var/opt/mssql/data -v C:/DockerVolumes/SqlData/log:/var/opt/mssql/log -v C:/DockerVolumes/SqlData/secrets:/var/opt/mssql/secrets -d mcr.microsoft.com/mssql/server:2019-latest
+
+///raspbery pi configurateion
+//inside
+povilas@povilas:~ $ pwd
+/home/povilas
+//write these commands
+
+# Create directories under /home/povilas
+
+sudo mkdir -p /home/povilas/DockerVolumes/SqlData/data
+sudo mkdir -p /home/povilas/DockerVolumes/SqlData/log
+sudo mkdir -p /home/povilas/DockerVolumes/SqlData/secrets
+
+# Set permissions
+
+sudo chmod -R 777 /home/povilas/DockerVolumes/SqlData
