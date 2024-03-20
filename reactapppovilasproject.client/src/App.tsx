@@ -44,7 +44,7 @@ const rows = [
       "ASP.Net Web API, ReactJS, Angular, NodeJS, SQL Server, Web API, Entity Framework",
     age: 14,
   },
-  { id: 2, lastName: "Lannister", firstName: "Cersei", age: 31 },
+  { id: 2, lastName: "Lannister1", firstName: "Cersei", age: 31 },
   { id: 3, lastName: "Lannister", firstName: "Jaime", age: 31 },
   { id: 4, lastName: "Stark", firstName: "Arya", age: 11 },
   { id: 5, lastName: "Targaryen", firstName: "Daenerys", age: null },
