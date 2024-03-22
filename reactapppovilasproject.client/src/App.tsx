@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+// import "./App.css";
 //import * as React from "react";
 //import Index from './pages/Index';
 // import Index from "./onepirate/Home.tsx";
@@ -17,14 +17,13 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1 id="tabelLabel">Povilas Apps</h1>
-      <p>Here are my projects </p>
+    // <div>
+    //   <h1 id="tabelLabel">Povilas Apps</h1>
+    //   <p>Here are my projects </p>
 
-      <Home></Home>
+    <Home></Home>
 
-      {/* <Index></Index> */}
-    </div>
+    // </div>
   );
 }
 
