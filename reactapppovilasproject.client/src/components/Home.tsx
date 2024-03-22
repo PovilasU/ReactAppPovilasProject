@@ -6,8 +6,8 @@ import * as React from "react";
 // import ProductValues from './modules/views/ProductValues';
 // import ProductHowItWorks from './modules/views/ProductHowItWorks';
 // import ProductCTA from './modules/views/ProductCTA';
-// import AppAppBar from './modules/views/AppAppBar';
-import withRoot from "./modules/withRoot.jsx";
+ //import AppAppBar from './modules/views/AppAppBar';
+import withRoot from "./modules/withRoot.tsx";
 //
 //import * as React from "react";
 import { ThemeProvider } from "@mui/material/styles";
@@ -36,8 +36,8 @@ function Index() {
   return (
     <React.Fragment>
       <p>test</p>
-      {/* <AppAppBar />
-      <ProductHero />
+      {/* <AppAppBar /> */}
+      {/* <ProductHero />
       <ProductValues />
       <ProductCategories />
       <ProductHowItWorks />
