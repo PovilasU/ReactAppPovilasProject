@@ -75,7 +75,6 @@ function ProductValues() {
               <Box
                 component="img"
                 src="/static/themes/onepirate/productValues3.svg"
-                src="https://picsum.photos/500/300"
                 alt="clock"
                 sx={{ height: 55 }}
               />
