@@ -58,7 +58,7 @@ export default function AppFooter() {
               spacing={2}
               sx={{ height: 120 }}
             >
-              <Grid item sx={{ display: "flex" }}>
+              {/* <Grid item sx={{ display: "flex" }}>
                 <Box component="a" href="https://mui.com/" sx={iconStyle}>
                   <img
                     src="/static/themes/onepirate/appFooterFacebook.png"
@@ -75,7 +75,7 @@ export default function AppFooter() {
                     alt="X"
                   />
                 </Box>
-              </Grid>
+              </Grid> */}
               <Grid item>
                 <Copyright />
               </Grid>
