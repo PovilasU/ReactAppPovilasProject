@@ -59,14 +59,16 @@ function ProductValues() {
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                New experiences
+                Project2
               </Typography>
               <Typography variant="h5">
                 {
-                  "Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… "
+                  "This ASP.NET skills demonstration project showcases a full-stack application "
                 }
 
-                {"your Sundays will not be alike."}
+                {
+                  "integrating ReactJS and Angular on the frontend, SQL with Entity Framework on the backend, and comprehensive unit testing."
+                }
               </Typography>
             </Box>
           </Grid>
@@ -74,16 +76,21 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="/static/themes/onepirate/productValues3.svg"
+                src="https://picsum.photos/500/300"
                 alt="clock"
                 sx={{ height: 55 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Exclusive rates
+                Project3
               </Typography>
               <Typography variant="h5">
-                {"By registering, you will access specially negotiated rates "}
-                {"that you will not find anywhere else."}
+                {
+                  "This ASP.NET skills demonstration project showcases a full-stack application "
+                }
+
+                {
+                  "integrating ReactJS and Angular on the frontend, SQL with Entity Framework on the backend, and comprehensive unit testing."
+                }
               </Typography>
             </Box>
           </Grid>
