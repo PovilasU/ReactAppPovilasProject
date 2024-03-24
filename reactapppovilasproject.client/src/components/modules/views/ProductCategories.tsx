@@ -55,50 +55,52 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=400",
+    // url: "https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=400",
+    url: "https://picsum.photos/400/",
     title: "Project 4",
     width: "40%",
   },
   {
-    url: "https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400",
+    //url: "https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400",
+    url: "https://picsum.photos/402/",
     title: "Project 5",
     width: "20%",
   },
   {
-    url: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400",
+    url: "https://picsum.photos/401/",
     title: "Project 6",
     width: "40%",
   },
   {
-    url: "https://images.unsplash.com/photo-1453747063559-36695c8771bd?auto=format&fit=crop&w=400",
+    url: "https://picsum.photos/403/",
     title: "Project 7",
     width: "38%",
   },
   {
-    url: "https://images.unsplash.com/photo-1523309996740-d5315f9cc28b?auto=format&fit=crop&w=400",
+    url: "https://picsum.photos/404/",
     title: "Project 8",
     width: "38%",
   },
   {
-    url: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=400",
+    url: "https://picsum.photos/405/",
     title: "Project 9",
     width: "24%",
   },
-  {
-    url: "https://images.unsplash.com/photo-1506941433945-99a2aa4bd50a?auto=format&fit=crop&w=400",
-    title: "Project 10",
-    width: "40%",
-  },
-  {
-    url: "https://images.unsplash.com/photo-1533727937480-da3a97967e95?auto=format&fit=crop&w=400",
-    title: "Project 11",
-    width: "20%",
-  },
-  {
-    url: "https://images.unsplash.com/photo-1518136247453-74e7b5265980?auto=format&fit=crop&w=400",
-    title: "Project 12",
-    width: "40%",
-  },
+  // {
+  //   url: "https://picsum.photos/406/",
+  //   title: "Project 10",
+  //   width: "40%",
+  // },
+  // {
+  //   url: "https://picsum.photos/407/",
+  //   title: "Project 11",
+  //   width: "20%",
+  // },
+  // {
+  //   url: "https://picsum.photos/408/",
+  //   title: "Project 12",
+  //   width: "40%",
+  // },
 ];
 
 export default function ProductCategories() {

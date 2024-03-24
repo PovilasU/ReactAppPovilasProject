@@ -1,7 +1,7 @@
 import * as React from "react";
 import ProductCategories from "./modules/views/ProductCategories.tsx";
 import ProductSmokingHero from "./modules/views/ProductSmokingHero";
-import AppFooter from "./modules/views/AppFooter";
+import AppFooter from "./modules/views/AppFooter.tsx";
 import ProductHero from "./modules/views/ProductHero";
 import ProductValues from "./modules/views/ProductValues";
 import ProductHowItWorks from "./modules/views/ProductHowItWorks";
