@@ -1,10 +1,11 @@
-import * as React from "react";
-import Button from "../components/Button";
+//import * as React from "react";
+//import Button from "../components/Button";
 import Typography from "../components/Typography";
 import ProductHeroLayout from "./ProductHeroLayout";
+import backgroundImage from "../../../assets/hero.webp";
 
-const backgroundImage =
-  "https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400";
+// const backgroundImage1 =
+//   "https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400";
 
 export default function ProductHero() {
   return (
@@ -21,8 +22,11 @@ export default function ProductHero() {
         src={backgroundImage}
         alt="increase priority"
       />
-      <Typography color="inherit" align="center" variant="h2" marked="center">
-        Upgrade your Sundays
+      <Typography color="inherit" align="center" variant="h3" marked="center">
+        Povilas Urbonas
+      </Typography>
+      <Typography color="inherit" align="center" variant="h5" marked="center">
+        Full-Stack Developer
       </Typography>
       <Typography
         color="inherit"
@@ -30,9 +34,10 @@ export default function ProductHero() {
         variant="h5"
         sx={{ mb: 4, mt: { xs: 4, sm: 10 } }}
       >
-        Enjoy secret offers up to -70% off the best luxury hotels every Sunday.
+        Technologies: JavaScript, TypeScript, ReactJS, ASP.NET, CSS, SASS,
+        Node.js, SQL, Git
       </Typography>
-      <Button
+      {/* <Button
         color="secondary"
         variant="contained"
         size="large"
@@ -41,9 +46,9 @@ export default function ProductHero() {
         sx={{ minWidth: 200 }}
       >
         Register123
-      </Button>
+      </Button> */}
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
-        Discover the experience
+        Latest projects
       </Typography>
     </ProductHeroLayout>
   );

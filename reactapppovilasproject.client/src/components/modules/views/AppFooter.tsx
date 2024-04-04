@@ -1,10 +1,10 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
+//import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Container from "@mui/material/Container";
 import Typography from "../components/Typography";
-import TextField from "../components/TextField";
+//import TextField from "../components/TextField";
 
 function Copyright() {
   return (
@@ -18,29 +18,29 @@ function Copyright() {
   );
 }
 
-const iconStyle = {
-  width: 48,
-  height: 48,
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  backgroundColor: "warning.main",
-  mr: 1,
-  "&:hover": {
-    bgcolor: "warning.dark",
-  },
-};
+// const iconStyle = {
+//   width: 48,
+//   height: 48,
+//   display: "flex",
+//   justifyContent: "center",
+//   alignItems: "center",
+//   backgroundColor: "warning.main",
+//   mr: 1,
+//   "&:hover": {
+//     bgcolor: "warning.dark",
+//   },
+// };
 
-const LANGUAGES = [
-  {
-    code: "en-US",
-    name: "English",
-  },
-  {
-    code: "fr-FR",
-    name: "Français",
-  },
-];
+// const LANGUAGES = [
+//   {
+//     code: "en-US",
+//     name: "English",
+//   },
+//   {
+//     code: "fr-FR",
+//     name: "Français",
+//   },
+// ];
 
 export default function AppFooter() {
   return (
