@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Typography from "../components/Typography";
+import devmagic from "../../../assets/devmagic.png";
 
 const item: SxProps<Theme> = {
   display: "flex",
@@ -31,12 +32,21 @@ function ProductValues() {
             <Box sx={item}>
               <Box
                 component="img"
-                src="https://picsum.photos/400/300"
+                src={devmagic}
+                // src="https://picsum.photos/400/300"
                 alt="suitcase"
-                sx={{ height: 55 }}
+                // sx={{ height: 155 }}
+                sx={{ height: 200 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Dev Magic Full Stack App
+                {/* Dev Magic Full Stack App */}
+                <a
+                  href="https://devmagic.povilas.cc/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Dev Magic Full Stack App
+                </a>
               </Typography>
               <Typography variant="h5">
                 {
@@ -55,10 +65,11 @@ function ProductValues() {
                 component="img"
                 src="https://picsum.photos/600/300"
                 alt="graph"
-                sx={{ height: 55 }}
+                // sx={{ height: 155 }}
+                sx={{ height: 200 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
-                Project2
+                Weather App
               </Typography>
               <Typography variant="h5">
                 {
@@ -77,7 +88,8 @@ function ProductValues() {
                 component="img"
                 src="https://picsum.photos/500/300"
                 alt="clock"
-                sx={{ height: 55 }}
+                // sx={{ height: 155 }}
+                sx={{ height: 200 }}
               />
               <Typography variant="h6" sx={{ my: 5 }}>
                 Project3
