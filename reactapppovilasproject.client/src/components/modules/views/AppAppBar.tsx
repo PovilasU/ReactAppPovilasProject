@@ -23,14 +23,15 @@ function AppAppBar() {
             href="/premium-themes/onepirate/"
             sx={{ fontSize: 24 }}
           >
-            {"Povilas Website"}
+            {/* {"Povilas Website"} */}
           </Link>
           <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
             <Link
               color="inherit"
               variant="h6"
               underline="none"
-              href="/premium-themes/onepirate/sign-in/"
+              // href="/premium-themes/onepirate/sign-in/"
+              href="https://github.com/PovilasU?tab=repositories"
               sx={rightLink}
             >
               {"Projects"}
@@ -38,7 +39,7 @@ function AppAppBar() {
             <Link
               variant="h6"
               underline="none"
-              href="/premium-themes/onepirate/sign-up/"
+              href="https://github.com/PovilasU"
               sx={{ ...rightLink, color: "secondary.main" }}
             >
               {"Github Repo"}
